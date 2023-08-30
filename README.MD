@@ -1,4 +1,4 @@
-This is a sample project that uses Selenium web driver+ java 17 + docker + images + containers + remoteWebDriver to run tests in docker containers.
+This is a sample project that uses Selenium web driver+ java 17 + docker + images + containers + remoteWebDriver to run tests in docker containers. 
 
 Prerequisites:
 1)install java 17.check with java -version
