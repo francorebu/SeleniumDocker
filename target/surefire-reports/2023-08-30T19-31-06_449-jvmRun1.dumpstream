@@ -1,0 +1,17 @@
+# Created at 2023-08-30T19:34:01.187
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-08-30T19:34:29.325
+Unexpected IOException: 7,1,org.example.AppTest,login(org.example.AppTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-JNVULT2'\002C ip: '192.168.220.1',null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-JNVULT2'\002C ip: '192.168.220.1',AppTest.login:24 \00BB SessionNotCreated Could not start a new session. Possible c...,org.openqa.selenium.SessionNotCreatedException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-JNVULT2'\002C ip: '192.168.220.1'\000A\0009at org.example.AppTest.login(AppTest.java:24)\000ACaused by: org.openqa.selenium.TimeoutException: \000Ajava.util.concurrent.TimeoutException\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.8'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at org.example.AppTest.login(AppTest.java:24)\000ACaused by: java.util.concurrent.TimeoutException\000A\0009at org.example.AppTest.login(AppTest.java:24)\000A
+
+
+# Created at 2023-08-30T19:34:29.326
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,org.example.AppTest,null,null,null
+
+
